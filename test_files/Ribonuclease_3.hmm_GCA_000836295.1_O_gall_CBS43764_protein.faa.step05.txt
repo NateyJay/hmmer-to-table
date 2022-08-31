@@ -1,0 +1,190 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  Ribonuclease_3.hmm
+# target sequence database:        GCA_000836295.1_O_gall_CBS43764_protein.faa
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Ribonuclease_3  [M=105]
+Accession:   PF00636.29
+Description: Ribonuclease III domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.6e-39  133.4   0.0    4.2e-21   74.9   0.0    2.8  2  KIV99210.1  hypothetical protein PV09_09074 [Verruconis gallopava]
+    1.5e-30  105.3   0.0    2.8e-15   56.2   0.0    2.9  3  KIW06292.1  hypothetical protein, variant [Verruconis gallopava]
+      2e-30  104.9   0.0    3.2e-15   56.0   0.0    2.9  3  KIW06291.1  hypothetical protein PV09_02760 [Verruconis gallopava]
+    5.3e-14   52.1   0.0    1.2e-13   50.9   0.0    1.7  1  KIW09536.1  hypothetical protein PV09_00409 [Verruconis gallopava]
+    2.5e-12   46.7   0.3    5.9e-11   42.3   0.0    2.7  2  KIW04201.1  hypothetical protein PV09_04509 [Verruconis gallopava]
+    2.9e-08   33.6   0.0    8.8e-08   32.1   0.0    1.8  2  KIW07155.1  hypothetical protein PV09_02024 [Verruconis gallopava]
+    1.2e-07   31.6   0.0      6e-07   29.4   0.0    2.2  1  KIW08717.1  hypothetical protein PV09_00660 [Verruconis gallopava]
+
+
+Domain annotation for each sequence (and alignments):
+>> KIV99210.1  hypothetical protein PV09_09074 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   0.0   2.5e-18   4.1e-15       1     103 [.    1092    1203 ..    1092    1205 .. 0.93
+   2 !   74.9   0.0   2.6e-24   4.2e-21       1     105 []    1298    1414 ..    1298    1414 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 2.5e-18
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B.........................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy.........klsddekedddadkvladvvEAliGaiyld 103 
+                      erLef+GD +lk a++  l+   p  +e +l+  r  +++n+nl + a +++l  ++r+  f+ + +  ++ +         + ++d+ +++ ++k++ad+ EAliGa +++
+      KIV99210.1 1092 ERLEFMGDCFLKTATSISLYASRPHHDEFDLHVSRMHMICNQNLMNSALEFQLTAYVRSMAFSRRLWYPEAIElvagkgagcTKNTDNFKHSLSNKTIADICEALIGAAFVQ 1203
+                      8********************99*999*******************************999999888888888***99998888888888899***************9986 PP
+
+  == domain 2  score: 74.9 bits;  conditional E-value: 2.6e-24
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B...................SSSS---HHH.............HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy...klsddekeddd.........adkvladvvEAliGaiyldsg 105 
+                      +rLeflGDa l+l+   ylf  yp+++++ l++ + ++vsn++l +l+ klg+++++r+s+ ++   ++  ++    ++++++e+ +          +k l dvvEA+iGa+++dsg
+      KIV99210.1 1298 QRLEFLGDALLDLVCIMYLFYNYPNKNPQWLTEHKMAMVSNKFLGALCVKLGFHRYVRHSSPSLGMHIKAYVEeveLAENSPSEKGGldywlhvkdPPKCLPDVVEAYIGALFIDSG 1414
+                      7**********************************************************9999999999988866633333333222556666666*******************97 PP
+
+>> KIW06292.1  hypothetical protein, variant [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.3   0.0       5.5   8.9e+03       5      37 ..     276     308 ..     275     311 .. 0.85
+   2 !   56.2   0.0   1.7e-18   2.8e-15       1     105 []     810     918 ..     810     918 .. 0.96
+   3 !   46.0   0.0   2.5e-15   4.1e-12       1     104 [.     993    1143 ..     993    1144 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -3.3 bits;  conditional E-value: 5.5
+                     HHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHH CS
+  Ribonuclease_3   5 flGDavlklaittylfetypdahegrlsklrsk 37 
+                     f+G + ++ ++ + + +  p  ++g l ++rs+
+      KIW06292.1 276 FIGMSNVQTVVKRLVEQIMPHNQKGVLENFRSA 308
+                     888899999988888888899999999999997 PP
+
+  == domain 2  score: 56.2 bits;  conditional E-value: 1.7e-18
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B....................SSSS---HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy....klsddekedddadkvladvvEAliGaiyldsg 105
+                     erLe+ GDa+++++++  ++ + p + eg l+  +s+ v n++l+++a ++ l+++++ ++f+  ++  p ++    ++s+ + ++++ +k+ladvvE+ i+a yld+g
+      KIW06292.1 810 ERLELFGDAYFNFLTSLNVMVERPYWPEGFLTMEKSRRVANDTLCKAALSVCLDQYIILKPFTGLKWVPPDVEkllvEASQPKGREQGPKKRLADVVESTIAAAYLDGG 918
+                     8********************9***************************************************888877777777999*******************87 PP
+
+  == domain 3  score: 46.0 bits;  conditional E-value: 2.5e-15
+                      HHHHHHHHHHHHHHHHHHHHH.HS..S-SHHHHHHHHHHHTSHHHHHHHH...............................HTTTGGGT-B................SSSS---HHH........................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetyp..dahegrlsklrsklvsnenlarla...............................kklglpkflrasefdpprnwlppgyklsddekeddd....................adkvladvvEAliGaiylds 104 
+                      erLef GDavl+++++++++  ++  ++ ++ ++ ++ ++v++  l +l+                                k+ ++++lr      +++  +  ++l++ ek +++                      kv++d++E ++Gaiy+ds
+      KIW06292.1  993 ERLEFFGDAVLDYLVVRRIYA-FNgrELPHNAMHSFKCAVVNSWILGYLCmehciweernnivmkpaghstsytpeieqtsVKKHIWQYLRPGL---RTEKEN--RSLERFEKMRNSlkysletctsfpwplisrfnPAKVFSDLIETILGAIYIDS 1143
+                      8*******************9.5523556*********************88888888888888888888888888888876788888888322...222222..235566666555888889999*****************************97 PP
+
+>> KIW06291.1  hypothetical protein PV09_02760 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.5   0.0       6.4     1e+04       5      37 ..     408     440 ..     407     442 .. 0.85
+   2 !   56.0   0.0     2e-18   3.2e-15       1     105 []     942    1050 ..     942    1050 .. 0.96
+   3 !   45.8   0.0   2.9e-15   4.7e-12       1     104 [.    1125    1275 ..    1125    1276 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -3.5 bits;  conditional E-value: 6.4
+                     HHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHH CS
+  Ribonuclease_3   5 flGDavlklaittylfetypdahegrlsklrsk 37 
+                     f+G + ++ ++ + + +  p  ++g l ++rs+
+      KIW06291.1 408 FIGMSNVQTVVKRLVEQIMPHNQKGVLENFRSA 440
+                     888899999988888888899999999999987 PP
+
+  == domain 2  score: 56.0 bits;  conditional E-value: 2e-18
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B....................SSSS---HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy....klsddekedddadkvladvvEAliGaiyldsg 105 
+                      erLe+ GDa+++++++  ++ + p + eg l+  +s+ v n++l+++a ++ l+++++ ++f+  ++  p ++    ++s+ + ++++ +k+ladvvE+ i+a yld+g
+      KIW06291.1  942 ERLELFGDAYFNFLTSLNVMVERPYWPEGFLTMEKSRRVANDTLCKAALSVCLDQYIILKPFTGLKWVPPDVEkllvEASQPKGREQGPKKRLADVVESTIAAAYLDGG 1050
+                      8********************9***************************************************888877777777999*******************87 PP
+
+  == domain 3  score: 45.8 bits;  conditional E-value: 2.9e-15
+                      HHHHHHHHHHHHHHHHHHHHH.HS..S-SHHHHHHHHHHHTSHHHHHHHH...............................HTTTGGGT-B................SSSS---HHH........................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetyp..dahegrlsklrsklvsnenlarla...............................kklglpkflrasefdpprnwlppgyklsddekeddd....................adkvladvvEAliGaiylds 104 
+                      erLef GDavl+++++++++  ++  ++ ++ ++ ++ ++v++  l +l+                                k+ ++++lr      +++  +  ++l++ ek +++                      kv++d++E ++Gaiy+ds
+      KIW06291.1 1125 ERLEFFGDAVLDYLVVRRIYA-FNgrELPHNAMHSFKCAVVNSWILGYLCmehciweernnivmkpaghstsytpeieqtsVKKHIWQYLRPGL---RTEKEN--RSLERFEKMRNSlkysletctsfpwplisrfnPAKVFSDLIETILGAIYIDS 1275
+                      8*******************9.5523556*********************88888888888888888888888888888876788888888322...222222..235566666555888889999*****************************97 PP
+
+>> KIW09536.1  hypothetical protein PV09_00409 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   0.0   7.7e-17   1.2e-13       1     103 [.     255     341 ..     255     343 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 7.7e-17
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyld 103
+                     e LeflGDa+l++++t+ +++++p  + g+   lr  lv+ne+la++a+ +g+ ++++                  +++++ ++ +k+ladv+EA+++++ ++
+      KIW09536.1 255 EPLEFLGDAYLEIIATRLIHSRFPLHSVGQKAGLRELLVKNETLAEYANAYGFGERVQ----------------SAQKDRHGSAWTKILADVFEAYVACVIIQ 341
+                     569*********************888*******************************................88999999*****************9986 PP
+
+>> KIW04201.1  hypothetical protein PV09_04509 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.1       1.5   2.4e+03      58      58 ..     103     103 ..      50     136 .. 0.50
+   2 !   42.3   0.0   3.6e-14   5.9e-11       2     105 .]     236     320 ..     235     320 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 1.5
+                     B CS
+  Ribonuclease_3  58 r 58 
+                     +
+      KIW04201.1 103 K 103
+                     1 PP
+
+  == domain 2  score: 42.3 bits;  conditional E-value: 3.6e-14
+                     HHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   2 rLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyldsg 105
+                     rL+++GD+ l l+ +++lf + p   +g++s+  + l +n+nla++++++gl++f                      ++e    dk++ad+vEA+iGa yl+ g
+      KIW04201.1 236 RLALIGDRALGLVLRERLFVELPGITNGEMSRRCQILETNRNLAAVGRRVGLDRFAFR-------------------SSEMPPCDKSVADTVEAVIGAAYLEDG 320
+                     9******************************************************993...................23334468****************976 PP
+
+>> KIW07155.1  hypothetical protein PV09_02024 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0       2.1   3.4e+03      73      92 ..      73     106 ..      34     112 .. 0.56
+   2 !   32.1   0.0   5.4e-11   8.8e-08       1     105 []     142     254 ..     142     254 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 2.1
+                     ................SSSS---HHH....HHHH CS
+  Ribonuclease_3  73 y..............klsddekedddadkvladv 92 
+                     +                ++ e  +++ +k +ad 
+      KIW07155.1  73 QqtpkgmqmpfkirpRDKRNEWTCNEDPKKVADF 106
+                     3333334444443332333333455566666665 PP
+
+  == domain 2  score: 32.1 bits;  conditional E-value: 5.4e-11
+                     HHHHHHHHHHHHHHHHHHH...............HH.HSS-S......HHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   1 erLeflGDavlklaittyl...............fetypdah......egrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyldsg 105
+                     +rL ++G+++++l+++ +l               + +yp +h      e+   + +s+++s++ la+l+k++gl+++lr         w+p     + d+ + ++ + v+a++++A++Ga+ l+ g
+      KIW07155.1 142 DRLSYMGKRIVDLQTSLALvakprdplseqgpdaYGRYPFEHplleglEHLSERQKSAVLSKNKLAQLGKEYGLQNVLR---------WRP----KKVDNLSGSGLELVMAQAMYAVVGAVALERG 254
+                     59*****************666666666655555335555544543634444566************************.........899....78999999******************99876 PP
+
+>> KIW08717.1  hypothetical protein PV09_00660 [Verruconis gallopava]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4   0.0   3.7e-10     6e-07       2     105 .]     121     281 ..     120     281 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 29.4 bits;  conditional E-value: 3.7e-10
+                     HHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................................SSSS---HHH.......................................................HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   2 rLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy................klsddekeddd...................................................adkvladvvEAliGaiyldsg 105
+                     +L++lG  v+ ++++++l+++yp +  + l +++ ++v  ++l ++ak++g ++        p  +  p                   +  ++++e  +                                                   +d+  a+ v Al+Gai+l+ g
+      KIW08717.1 121 ALATLGSDVMGYYMSEHLICHYPRLPMDVLFAAQEAYVGPKALMTIAKEWGVEEAAE-----PGGEVDPG-LlqfrltpkgganalesS--QQPAE--EpqdgsgranqelarsmgwrrgmssrivyddqfgmerrpepsassghiptisRDEAHAQFVRALVGAIHLHTG 281
+                     699********************************************9999888877.....33333333.247778888888766441..33333..1224466777788888888888999999999999999999999999999999*****************9976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                      11357  (5561567 residues searched)
+Passed MSV filter:                       342  (0.0301136); expected 227.1 (0.02)
+Passed bias filter:                      293  (0.0257991); expected 227.1 (0.02)
+Passed Vit filter:                        24  (0.00211323); expected 11.4 (0.001)
+Passed Fwd filter:                         7  (0.00061636); expected 0.1 (1e-05)
+Initial search space (Z):              11357  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 8385.42
+//
+[ok]

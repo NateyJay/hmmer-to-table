@@ -1,0 +1,175 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  Ribonuclease_3.hmm
+# target sequence database:        GCA_000836435.1_Fons_mult_CBS_102226_V1_protein.faa
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Ribonuclease_3  [M=105]
+Accession:   PF00636.29
+Description: Ribonuclease III domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    7.5e-43  144.9   0.0    2.4e-22   79.0   0.0    2.9  2  KIX98866.1  hypothetical protein Z520_05327 [Fonsecaea multimorphosa CBS 102226]
+    3.1e-35  120.5   0.0    2.7e-17   62.8   0.0    3.2  2  KIY01741.1  hypothetical protein Z520_01879 [Fonsecaea multimorphosa CBS 102226]
+    5.8e-34  116.3   0.0    2.3e-17   63.0   0.0    3.1  2  KIX93481.1  hypothetical protein Z520_10901 [Fonsecaea multimorphosa CBS 102226]
+    7.7e-17   61.3   0.1    4.4e-16   58.9   0.1    2.3  1  KIX99624.1  hypothetical protein Z520_04258 [Fonsecaea multimorphosa CBS 102226]
+    4.5e-06   26.7   0.3    3.6e-05   23.8   0.0    2.5  2  KIX98869.1  hypothetical protein Z520_05330 [Fonsecaea multimorphosa CBS 102226]
+    1.5e-05   25.0   0.1    8.1e-05   22.7   0.0    2.3  2  KIX94122.1  hypothetical protein Z520_10148 [Fonsecaea multimorphosa CBS 102226]
+  ------ inclusion threshold ------
+      0.015   15.4   0.0       0.11   12.6   0.0    2.3  1  KIX96295.1  hypothetical protein Z520_08073 [Fonsecaea multimorphosa CBS 102226]
+
+
+Domain annotation for each sequence (and alignments):
+>> KIX98866.1  hypothetical protein Z520_05327 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.0   0.0   1.3e-25   2.4e-22       1     105 []     787     893 ..     787     893 .. 0.93
+   2 !   62.9   0.0   1.4e-20   2.5e-17       1     104 [.     964    1116 ..     964    1117 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 79.0 bits;  conditional E-value: 1.3e-25
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---..HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddeke..dddadkvladvvEAliGaiyldsg 105
+                     e LeflGD++lk+++t +l+++++++ eg+l+  r+ lvsn++la++a k gl  f+r+++ +++++     +++  +++   +  + kvladvvEAliGa ++d+g
+      KIX98866.1 787 ETLEFLGDSILKMVVTVQLYSRHKNWPEGYLTLKRAVLVSNQYLAQAALKAGLSAFIRTTPISWRKWSPIFISDVVAKPSTaaRTVRMKVLADVVEALIGAAFVDGG 893
+                     78*****************************************************************99998866666666447779*****************987 PP
+
+  == domain 2  score: 62.9 bits;  conditional E-value: 1.4e-20
+                      HHHHHHHHHHHHHHHHHHHHH..HSS-SHHHHHHHHHHHTSHHHHHHHH...............................HTTTGGGT-B...................SSSS---HHH........................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfe.typdahegrlsklrsklvsnenlarla...............................kklglpkflrasefdpprnwlppgy...klsddekeddd....................adkvladvvEAliGaiylds 104 
+                      +rLeflGDavl+l+i ++l+  +  ++++g +++++s++v+++ l +++                                +++l++++r+++ ++++   +++    kl+       +                     +k+++d++E+liGaiy+ds
+      KIX98866.1  964 QRLEFLGDAVLDLIIASQLMAhKTASWSPGAMTRIKSAMVNAHLLGFFCmefcrtqefdfvqqqqqqqrtdvsfkiereiTEVRLWQLMRSHSDAVRDHRMNSLDrfeKLGA------SirrqldcsseypwldlsmlrPEKFFSDIIESLIGAIYVDS 1116
+                      7**************9999882333567*********************899999999999999999999999999988878889999998888888877776445553333......244555588899999************************97 PP
+
+>> KIY01741.1  hypothetical protein Z520_01879 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   0.0   7.2e-18   1.3e-14       1     103 [.    1073    1184 ..    1073    1186 .. 0.91
+   2 !   62.8   0.0   1.5e-20   2.7e-17       1     104 [.    1275    1390 ..    1275    1391 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 7.2e-18
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHH..TTTGGGT-B............................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlak..klglpkflrasefdpprnwlppgy............klsddekedddadkvladvvEAliGaiyld 103 
+                      +rLeflGD+ lk+++t  +f++   ++e+ ++  r +l+sn+ l++ a    ++l +++r    +p + w++  y            k++d+ +++   +k++adv EA iGa+ ++
+      KIY01741.1 1073 QRLEFLGDSLLKMMTTITVFNR-STCDEEGMHCKRMNLLSNNRLCTTASapHYELFRYIR----SPDVHWRDTWYpeflelekgrliKVTDKHRKHALGKKTIADVCEATIGACIMS 1184
+                      7********************5.569*******************888656899999999....677888888888888**********************************9987 PP
+
+  == domain 2  score: 62.8 bits;  conditional E-value: 1.5e-20
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekeddd............adkvladvvEAliGaiylds 104 
+                      +rLeflGDa+l+++   +lf+t p + ++ l++ + ++vsn++la+la  lg++k++ a++  + +++    +k++++ +++d              +kvlad+vE+++Ga+++ds
+      KIY01741.1 1275 QRLEFLGDACLDWVCIWWLFSTNPTRGPQWLTEHKMAMVSNKFLAALAVVLGFNKLVYANSMGVYDDIARYASKVQEAWEQKDVradfwtriseghVPKVLADLVESYLGAVLVDS 1390
+                      7***********************999*****************************************9987655555444444788899999999*****************997 PP
+
+>> KIX93481.1  hypothetical protein Z520_10901 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.0   0.0   1.3e-20   2.3e-17       1     103 [.     961    1065 ..     961    1066 .. 0.88
+   2 !   50.0   0.0   1.4e-16   2.5e-13       1     104 [.    1148    1296 ..    1148    1297 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 63.0 bits;  conditional E-value: 1.3e-20
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B..................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy..klsddekedddadkvladvvEAliGaiyld 103 
+                      +rLeflGD  lk++ + ++f   p+  eg+l+  r ++++n  l r+ + +gl+++l+ ++f+ +++           +++ ++  ++k+ladvvEAliGa  l+
+      KIX93481.1  961 QRLEFLGDVLLKFYSSLQVFVDSPNHPEGQLTLYRGRIINNARLQRATRAIGLDQYLTRTRFAANQWSIGVRDprVRARKPPQKRLSSKTLADVVEALIGAASLS 1065
+                      7***********************999***********************************9998876544455345555556779**************9886 PP
+
+  == domain 2  score: 50.0 bits;  conditional E-value: 1.4e-16
+                      HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHH...........................HTTTGGGT-B.........................................SSSS---HHH......................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3    1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarla...........................kklglpkflrasefdpprnwlppgy.........................klsddekeddd..................adkvladvvEAliGaiylds 104 
+                      +rLeflGDavl+++++  lf+   ++++g+++   ++lvs  +la++a                           +++ lp++                                                                       a+k ++dvvE+++Ga++lds
+      KIX93481.1 1148 DRLEFLGDAVLDCIVSPKLFHSSLQLDPGQMTIRHHALVSHVTLAFFAlqtsatrstydvqtdlctkqtvssertETVYLPDH----------------IrrignslaplqrratlaayeevrssV---------LasfetgkkfpwsalsrvgAPKCYSDVVESILGAVFLDS 1296
+                      59*******************888999*********************77777776666555555554444444433333333................133333333444454444444444440.........0444555555555555555******************97 PP
+
+>> KIX99624.1  hypothetical protein Z520_04258 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.9   0.1   2.5e-19   4.4e-16       1     103 [.      72     160 ..      72     162 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.9 bits;  conditional E-value: 2.5e-19
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyld 103
+                     +rLeflGDa+l+l++t+ +f+++p++++g+ls++r +lv+ne+  ++a  +gl+k ++             gy  + +++   +  k+++dv+EA+++a++l+
+      KIX99624.1  72 DRLEFLGDAYLELFATQLIFDKFPNLDPGKLSQIRESLVKNETIGQYASLYGLDKQIQ-------------GY-KQFQNQAPHAWLKIKGDVFEAYVAAVVLT 160
+                     59********************************************************.............33.222233334589**************997 PP
+
+>> KIX98869.1  hypothetical protein Z520_05330 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   0.0     2e-08   3.6e-05       2     104 ..      51     135 ..      50     136 .. 0.94
+   2 ?   -0.0   0.0      0.52   9.2e+02      38      66 ..     486     513 ..     386     544 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 2e-08
+                     HHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3   2 rLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiylds 104
+                     rL+ lG avl+la+++  f+      +++l+ lr+k++ +++l+ +a+++ l+  l                 +s+ +++  + + ++  v+ A++Ga++ld 
+      KIX98869.1  51 RLAKLGYAVLELAMVDEWFR--RGMGHRELDLLRKKFLAKDYLSDAAQQKALHTCLS----------------MSQRQENIAAPPTTMKLVLSAIVGAVWLDA 135
+                     9*******************..55789******************************................99999999999***************9985 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.52
+                     HTSHHHHHHHHHTTTGGGT-B........ CS
+  Ribonuclease_3  38 lvsnenlarlakklglpkflrasefdppr 66 
+                       sn +  +l  k++l++flr  + + ++
+      KIX98869.1 486 CASNAAVEKLS-KKDLDDFLRPAKNSRHS 513
+                     44555555555.47777777755555444 PP
+
+>> KIX94122.1  hypothetical protein Z520_10148 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       2.7   4.7e+03      63      80 ..      60      93 ..      30     114 .. 0.55
+   2 !   22.7   0.0   4.6e-08   8.1e-05       1     105 []     134     248 ..     134     248 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 2.7
+                    ............................SSSS-- CS
+  Ribonuclease_3 63 dpprnwlppgy................klsddek 80
+                    +ppr+++ p +                k ++d++
+      KIX94122.1 60 NPPRWAQTPPAlkapvrvrppriqtplKINKDQR 93
+                    4444443333333333333333344444444444 PP
+
+  == domain 2  score: 22.7 bits;  conditional E-value: 4.6e-08
+                     HHHHHHHHHHHHHHHHHHH............HH..........HSS-S..HHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   1 erLeflGDavlklaittyl............fe.........typdah..egrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyldsg 105
+                     +rL+f G+++l+l+ + +l            +e         ++p ++  e  l  + + ++s + l++la+++glp+++r+++              + +  ++++++ v+++++ A+iGa+ l++g
+      KIX94122.1 134 DRLAFFGKRILELQCSLALisvadasrylksYEqdphgrepfRHPATEsvECLLGGAHHWFTSHKQLSTLAEQYGLPEVVRWHPR-------------DPERLQASGSELVYSQAILAIIGALALEQG 248
+                     59*****************55555555555511555555555588555568888999************************6444.............444556888999999999999999999876 PP
+
+>> KIX96295.1  hypothetical protein Z520_08073 [Fonsecaea multimorphosa CBS 102226]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   6.1e-05      0.11       3     104 ..     117     264 ..     115     265 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 6.1e-05
+                     HHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B.....................................SSSS---HHH...........................................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3   3 LeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy.....................klsddekeddd.......................................adkvladvvEAliGaiylds 104
+                     +++lG   l l++++y++++yp +  + l ++  ++    +l ++ +++g +         p  +  p +                      +         +                                        +      v A++Ga+yl+ 
+      KIX96295.1 117 FALLGNDLLGLYTSEYIISQYPRLPLEVLYAAMYAYHGPATLTQMTREWGVEAAAE-----PGGEVDPGLLqfkrmppeqpladgdtgssgsN---------NeprakwtrslsartvhndqfgeyperpsspedlaskgvtLQRASTNFVRAVMGAVYLHA 264
+                     799***************************9999*999999999997777666554.....22222222113333333333333322222220.........023333444444444444445555555555555655555555556667777777777765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                      12369  (6118862 residues searched)
+Passed MSV filter:                       358  (0.0289433); expected 247.4 (0.02)
+Passed bias filter:                      322  (0.0260328); expected 247.4 (0.02)
+Passed Vit filter:                        20  (0.00161695); expected 12.4 (0.001)
+Passed Fwd filter:                         7  (0.000565931); expected 0.1 (1e-05)
+Initial search space (Z):              12369  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 8262.60
+//
+[ok]

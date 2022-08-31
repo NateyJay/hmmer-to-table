@@ -1,0 +1,117 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  Ribonuclease_3.hmm
+# target sequence database:        GCA_000855695.1_Cryp_gatt_CA1873_V1_protein.faa
+# max ASCII text line length:      unlimited
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Ribonuclease_3  [M=105]
+Accession:   PF00636.29
+Description: Ribonuclease III domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.1e-28   98.5   0.0    4.3e-18   64.5   0.0    2.5  2  KIR67751.1  hypothetical protein I314_02168 [Cryptococcus gattii CA1873]
+    1.7e-27   94.7   0.0      7e-17   60.6   0.0    2.6  2  KIR67752.1  hypothetical protein I314_02169 [Cryptococcus gattii CA1873]
+      1e-11   44.0   0.1    4.2e-11   42.0   0.0    2.1  2  KIR58248.1  ribonuclease III [Cryptococcus gattii CA1873]
+  ------ inclusion threshold ------
+      0.017   14.4   0.0      0.044   13.0   0.0    1.7  1  KIR60049.1  hypothetical protein I314_03900 [Cryptococcus gattii CA1873]
+
+
+Domain annotation for each sequence (and alignments):
+>> KIR67751.1  hypothetical protein I314_02168 [Cryptococcus gattii CA1873]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   0.0   2.6e-21   4.3e-18       1     104 [.     521     643 ..     521     644 .. 0.94
+   2 !   31.6   0.0   4.3e-11   7.1e-08       1     104 [.     728     848 ..     728     849 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 2.6e-21
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-S.HHHHHHH...HHHHTSHHHHHHHHHTTTGGGT-B...............................SSSS---HHH....HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdah.egrlskl...rsklvsnenlarlakklglpkflrasefdpprnwlppgy...............klsddekedddadkvladvvEAliGaiylds 104
+                     erLe+lGD  lk+++t +++     a+ e++++k+   r+ l+sn++l + a k gl k++r+++f+++++     +               +  d+++++   dkv+ad++EA+iGa y+++
+      KIR67751.1 521 ERLEILGDTLLKFITTLHFYLLGGGADsEDDMNKVwqdRHMLISNRTLTANAVKQGLVKYIRNKKFKVKEWTPRDWEldlpqgqftpkktmpTSFDGPESRTLGDKVIADIIEAIIGASYVHN 643
+                     8********************66555449999999999**************************************9***************999*************************986 PP
+
+  == domain 2  score: 31.6 bits;  conditional E-value: 4.3e-11
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B......................SSSS---HHH................HHHHHHHHHHHHHHHT CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy......klsddekeddd............adkvladvvEAliGaiylds 104
+                     er+ ++G a l+l++ + l++typd+ +  ls ++ + +++ + ++la +lglp+++++   + +++ + +        k++ de+ +++             + v ++++E l+Gai+ d+
+      KIR67751.1 728 ERYKMMGNALLDLYVIELLMDTYPDEGPASLSVMKLSRTTEGSRCALAVELGLPDLIIDGDDHSRSELKRA-ThfmqkaKAQADENLNEGeqggvhyweevvISRVNGSILEILFGAIFDDC 848
+                     89********************************************************5444444444444.3577766555555554448999999999999999************9877 PP
+
+>> KIR67752.1  hypothetical protein I314_02169 [Cryptococcus gattii CA1873]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6   0.0   4.2e-20     7e-17       1     101 [.     469     588 ..     469     592 .. 0.91
+   2 !   31.6   0.0   4.5e-11   7.5e-08       1     105 []     676     798 ..     676     798 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 4.2e-20
+                     HHHHHHHHHHHHHHHHHHHHH.HS..S-SHHHHHHH..HHHHTSHHHHHHHHHTTTGGGT-B...............................SSSS---HHH....HHHHHHHHHHHHH CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetyp..dahegrlskl..rsklvsnenlarlakklglpkflrasefdpprnwlppgy...............klsddekedddadkvladvvEAliGaiy 101
+                     +rLe+lGD  lk++it +++ +    + +e+ l  +  r++lvsn++l + a klgl +++r+++ ++++++    +               +  d+++ +   dk lad+vEA+iGa y
+      KIR67752.1 469 DRLEILGDTLLKFFITLHVYLHGGgsNSREDSLKVWqdRHRLVSNRTLTANAIKLGLVDYVRDKRLKVKDWIPRDWEldvssgqivpkkavqTSHDGPEIRRLGDKLLADIVEAIIGASY 588
+                     59*******************44332455999988888**************************************9**********9999989999999999***************98 PP
+
+  == domain 2  score: 31.6 bits;  conditional E-value: 4.5e-11
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B.........................SSSS---HHH......................HHHHHHHHHHHHHHHTT CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgy.........klsddekeddd..................adkvladvvEAliGaiyldsg 105
+                     e + +lG av++l++ + l+ +yp++ +g ls++++  +++   ++la +lgl+++l++     +r+   + y         +         +                   +++ ++v+E + Gai+ dsg
+      KIR67752.1 676 ENYKMLGNAVFDLHVIESLLAKYPEEGPGSLSNMKTFRTTEGLRCALATELGLQDLLKDGDERAERELGRATYfmrdakaqaD---------AaglsedeqggihywdnvaVNHFTGSVIEVIYGAIFQDSG 798
+                     5689******************************************************9999999999999995555544440.........34444455666888888879999*************9987 PP
+
+>> KIR58248.1  ribonuclease III [Cryptococcus gattii CA1873]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       1.3   2.2e+03      51      79 ..      47      76 ..      36     127 .. 0.62
+   2 !   42.0   0.0   2.6e-14   4.2e-11       1     102 [.     203     289 ..     203     292 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 1.3
+                    TTGGGT-B.................SSSS- CS
+  Ribonuclease_3 51 lglpkflrasefdpprnwlppgy.klsdde 79
+                    l+ ++  r++ ++ p+  + p++ kl +++
+      KIR58248.1 47 LQPQRSTRSKLSKAPKATKSPKSpKLPKAP 76
+                    333333333333333333333334333333 PP
+
+  == domain 2  score: 42.0 bits;  conditional E-value: 2.6e-14
+                     HHHHHHHHHHHHHHHHHHHHH.HSS-SHHHHHHHHHHHTSHHHHHHHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHH CS
+  Ribonuclease_3   1 erLeflGDavlklaittylfetypdahegrlsklrsklvsnenlarlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyl 102
+                     e+Le +GDa l +++t  l++ yp++++g  +++++  v+n++l++l +++++p++l++                 ++ +  ++ +k+ a ++EA+++ ++ 
+      KIR58248.1 203 EKLEHVGDALLGCIVTCLLHDLYPNLNPGNATEMKAICVCNQTLSQLSRRYKMPERLIT---------------DVNATEVLKNGTKTTANIFEAYVAGLHY 289
+                     78********************************************************5...............3333444455699999999999987765 PP
+
+>> KIR60049.1  hypothetical protein I314_03900 [Cryptococcus gattii CA1873]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   2.7e-05     0.044       2     103 ..     123     221 ..     122     223 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.7e-05
+                     HHHHHHHHHHHHHHHHHHHH.HSS-...SHHHHHHHHHHHTSHHHHH.HHHHTTTGGGT-B................SSSS---HHH....HHHHHHHHHHHHHHH CS
+  Ribonuclease_3   2 rLeflGDavlklaittylfetypda...hegrlsklrsklvsnenla.rlakklglpkflrasefdpprnwlppgyklsddekedddadkvladvvEAliGaiyld 103
+                     rL+flG + l  +   +++e y +    +e+  ++lr k + ++  a r +++lg      +   d+ r+ ++       + ++++++ +v++++vEA++G ++++
+      KIR60049.1 123 RLAFLGRRALSTYLALFVHEAYGSSgalREQGSDFLRGKELEERLTAlRHVNNLGRMVGGEWRVEDVLRWDRN-------QTAQANGNLSVKGQTVEAILGGVFTQ 221
+                     9*****************9988722111355556666666666555555555443333333334444444444.......5667888999*************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                       6634  (3263861 residues searched)
+Passed MSV filter:                       156  (0.0235152); expected 132.7 (0.02)
+Passed bias filter:                      137  (0.0206512); expected 132.7 (0.02)
+Passed Vit filter:                        14  (0.00211034); expected 6.6 (0.001)
+Passed Fwd filter:                         4  (0.000602954); expected 0.1 (1e-05)
+Initial search space (Z):               6634  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 9031.97
+//
+[ok]

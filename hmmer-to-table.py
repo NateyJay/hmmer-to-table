@@ -25,7 +25,7 @@ args = parser.parse_args()
 files = args.files
 output_file = args.output_file
 
-header = "query\tquery_accession\tquery_description\ttarget_accession\ttarget_description\tfull_eval\tfull_score\tfull_bias\tdom_n\tdom_qual\tdom_score\tdom_bias\tdom_ceval\tdom_ieval\thmm_from\thmm_to\tali_from\tali_to\tenv_from\tenv_to\tacc"
+header = "query\tquery_accession\tquery_description\ttarget_accession\ttarget_description\tabove_threshold\tfull_eval\tfull_score\tfull_bias\tdom_n\tdom_qual\tdom_score\tdom_bias\tdom_ceval\tdom_ieval\thmm_from\thmm_to\tali_from\tali_to\tenv_from\tenv_to\tacc"
 
 
 if output_file:
@@ -61,12 +61,15 @@ for file in files:
 				del lines[:3]
 
 				full_d = {}
+				inclusion = "1"
 
 				while True:
 					full_line = lines.pop(0).strip().split()
 
 					if len(full_line) == 0:
 						break
+					elif "inclusion" in full_line:
+						inclusion = "0"
 					else:
 
 						target_accession   = full_line[8]
@@ -77,7 +80,8 @@ for file in files:
 						'full_score' : full_line[1],
 						'full_bias' : full_line[2],
 						'target_accession' : target_accession,
-						'target_description' : target_description
+						'target_description' : target_description,
+						'inclusion' : inclusion
 						}
 
 			# Looks for a domain set by the accession id. Prints out for each domain line found along with generic information.
@@ -91,8 +95,6 @@ for file in files:
 					if len(dom_line) == 0:
 						break
 					else:
-						# print(dom_line)
-
 
 						del dom_line[14]
 						del dom_line[11]
@@ -101,6 +103,7 @@ for file in files:
 						out_line = [query, query_accession, query_description, 
 							target_accession,
 							full_d[target_accession]['target_description'],
+							full_d[target_accession]['inclusion'],
 							full_d[target_accession]['full_eval'],
 							full_d[target_accession]['full_score'],
 							full_d[target_accession]['full_bias']] + dom_line

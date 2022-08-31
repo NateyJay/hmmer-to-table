@@ -1,0 +1,15 @@
+query	query_accession	query_description	target_accession	target_description	full_eval	full_score	full_bias	dom_n	dom_qual	dom_score	dom_bias	dom_ceval	dom_ieval	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIV99210.1	hypothetical protein PV09_09074 [Verruconis gallopava]	2.6e-39	133.4	0.0	1	!	55.7	0.0	2.5e-18	4.1e-15	1	103	1092	1203	1092	1205	0.93
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIV99210.1	hypothetical protein PV09_09074 [Verruconis gallopava]	2.6e-39	133.4	0.0	2	!	74.9	0.0	2.6e-24	4.2e-21	1	105	1298	1414	1298	1414	0.87
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06292.1	hypothetical protein, variant [Verruconis gallopava]	1.5e-30	105.3	0.0	1	?	-3.3	0.0	5.5	8.9e+03	5	37	276	308	275	311	0.85
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06292.1	hypothetical protein, variant [Verruconis gallopava]	1.5e-30	105.3	0.0	2	!	56.2	0.0	1.7e-18	2.8e-15	1	105	810	918	810	918	0.96
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06292.1	hypothetical protein, variant [Verruconis gallopava]	1.5e-30	105.3	0.0	3	!	46.0	0.0	2.5e-15	4.1e-12	1	104	993	1143	993	1144	0.81
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06291.1	hypothetical protein PV09_02760 [Verruconis gallopava]	2e-30	104.9	0.0	1	?	-3.5	0.0	6.4	1e+04	5	37	408	440	407	442	0.85
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06291.1	hypothetical protein PV09_02760 [Verruconis gallopava]	2e-30	104.9	0.0	2	!	56.0	0.0	2e-18	3.2e-15	1	105	942	1050	942	1050	0.96
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW06291.1	hypothetical protein PV09_02760 [Verruconis gallopava]	2e-30	104.9	0.0	3	!	45.8	0.0	2.9e-15	4.7e-12	1	104	1125	1275	1125	1276	0.81
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW09536.1	hypothetical protein PV09_00409 [Verruconis gallopava]	5.3e-14	52.1	0.0	1	!	50.9	0.0	7.7e-17	1.2e-13	1	103	255	341	255	343	0.95
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW04201.1	hypothetical protein PV09_04509 [Verruconis gallopava]	2.5e-12	46.7	0.3	1	?	-1.5	0.1	1.5	2.4e+03	58	58	103	103	50	136	0.50
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW04201.1	hypothetical protein PV09_04509 [Verruconis gallopava]	2.5e-12	46.7	0.3	2	!	42.3	0.0	3.6e-14	5.9e-11	2	105	236	320	235	320	0.92
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW07155.1	hypothetical protein PV09_02024 [Verruconis gallopava]	2.9e-08	33.6	0.0	1	?	-1.9	0.0	2.1	3.4e+03	73	92	73	106	34	112	0.56
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW07155.1	hypothetical protein PV09_02024 [Verruconis gallopava]	2.9e-08	33.6	0.0	2	!	32.1	0.0	5.4e-11	8.8e-08	1	105	142	254	142	254	0.81
+Ribonuclease_3  [M=105]	PF00636.29	Ribonuclease III domain	KIW08717.1	hypothetical protein PV09_00660 [Verruconis gallopava]	1.2e-07	31.6	0.0	1	!	29.4	0.0	3.7e-10	6e-07	2	105	121	281	120	281	0.81

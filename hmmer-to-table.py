@@ -41,11 +41,12 @@ for file in files:
 
 		lines = [l.strip() for l in lines if l[0] != "#"]
 
-
+		# iterates through file using pop(), allowing us to skip lines using the del fuction.
 		while len(lines) > 0:
 			line = lines.pop(0).strip()
 
-			# print(line)
+
+			# gets query information based on line starts
 			if line.startswith("Query:"):
 				query = " ".join(line.split(":")[1:]).strip()
 
@@ -55,7 +56,7 @@ for file in files:
 			if line.startswith("Description:"):
 				query_description = " ".join(line.split(":")[1:]).strip()
 
-
+			# identifies the key for showing the full protein entries, skips lines to the information lines, and writes them to a dictionary
 			if line.startswith("Scores for complete sequences (score includes all domains):"):
 				del lines[:3]
 
@@ -79,6 +80,7 @@ for file in files:
 						'target_description' : target_description
 						}
 
+			# Looks for a domain set by the accession id. Prints out for each domain line found along with generic information.
 			if line.startswith(">>"):
 				target_accession = line.split()[1]
 				del lines[:2]

@@ -25,7 +25,7 @@ args = parser.parse_args()
 files = args.files
 output_file = args.output_file
 
-header = "query\tquery_accession\tquery_description\ttarget_accession\ttarget_description\tabove_threshold\tfull_eval\tfull_score\tfull_bias\tdom_n\tdom_qual\tdom_score\tdom_bias\tdom_ceval\tdom_ieval\thmm_from\thmm_to\tali_from\tali_to\tenv_from\tenv_to\tacc"
+header = "query\tquery_accession\tquery_description\ttarget_db\ttarget_accession\ttarget_description\tabove_threshold\tfull_eval\tfull_score\tfull_bias\tdom_n\tdom_qual\tdom_score\tdom_bias\tdom_ceval\tdom_ieval\thmm_from\thmm_to\tali_from\tali_to\tenv_from\tenv_to\tacc"
 
 
 if output_file:
@@ -39,14 +39,17 @@ for file in files:
 	with open(file, 'r') as f:
 		lines = f.readlines()
 
-		lines = [l.strip() for l in lines if l[0] != "#"]
+		lines = [l.strip() for l in lines]
 
 		# iterates through file using pop(), allowing us to skip lines using the del fuction.
 		while len(lines) > 0:
-			line = lines.pop(0).strip()
+			line = lines.pop(0)
 
 
 			# gets query information based on line starts
+			if line.startswith("# target sequence database::"):
+				target_db = " ".join(line.split(":")[1:]).strip()
+
 			if line.startswith("Query:"):
 				query = " ".join(line.split(":")[1:]).strip()
 
@@ -101,7 +104,7 @@ for file in files:
 						del dom_line[8]
 
 						out_line = [query, query_accession, query_description, 
-							target_accession,
+							target_db, target_accession,
 							full_d[target_accession]['target_description'],
 							full_d[target_accession]['inclusion'],
 							full_d[target_accession]['full_eval'],

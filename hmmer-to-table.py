@@ -47,7 +47,7 @@ for file in files:
 
 
 			# gets query information based on line starts
-			if line.startswith("# target sequence database::"):
+			if line.startswith("# target sequence database:"):
 				target_db = " ".join(line.split(":")[1:]).strip()
 
 			if line.startswith("Query:"):
